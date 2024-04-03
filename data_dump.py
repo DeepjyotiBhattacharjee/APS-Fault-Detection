@@ -8,7 +8,7 @@ uri = "mongodb+srv://deepjyotibhattacharjee217:Snape1993@cluster0.eiomi4b.mongod
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
 
-DATA_FILE_PATH = 'aps_failure_training_set.csv'
+DATA_FILE_PATH = 'notebooks/data/aps_failure_training_set.csv'
 DATABASE_NAME = 'aps'
 COLLECTION_NAME = 'sensor'
 
